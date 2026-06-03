@@ -309,25 +309,93 @@
         <section id="project" class="section project">
             <div class="container">
                 <div class="section__header">
-                    <h2 class="section__title">Software/AI/ML Projects</h2>
+                    <h2 class="section__title">Projects</h2>
                     <span class="section__subtitle">My work</span>
                 </div>
                 <div class="d-grid project__wrapper">
                     <div class="project__content">
+                        <img src="assets/img/clearpath.png" alt="ClearPath AI" class="project__img">
+                        <h3 class="project__title">ClearPath AI</h3>
+                        <p class="project__description">
+                            An AI-powered immigration assistant built for international 
+                            students navigating US visa requirements. RAG pipeline over 
+                            4 official USCIS documents with PostgreSQL-backed memory 
+                            returning answers in under 3 seconds. Trained a Random Forest 
+                            on 25,480 real USCIS cases achieving 73.6% accuracy with SHAP 
+                            explainability via a React frontend.
+                        </p>
+                        <a href="https://github.com/SwayamRBadhe/clearpath-ai" target="_blank" class="project__link">View Project
+                            <i class="ri-arrow-right-line"></i></a>
+                    </div>
+                    <div class="project__content">
+                        <img src="assets/img/tenantlens.png" alt="TenantLens" class="project__img">
+                        <h3 class="project__title">TenantLens</h3>
+                        <p class="project__description">
+                            A renter protection platform built on 3 independent 
+                            microservices on AWS - fake review detection, rent manipulation 
+                            scoring, and neighborhood safety analysis - each deployable on 
+                            its own and feeding into a single trust score a renter can 
+                            actually use. Each service fails independently so the platform 
+                            stays functional even when one goes down.
+                        </p>
+                        <a href="https://github.com/SwayamRBadhe/tenantlens" target="_blank" class="project__link">View Project
+                            <i class="ri-arrow-right-line"></i></a>
+                    </div>
+                    <div class="project__content">
                         <img src="assets/img/meeting-summarizer.png" alt="Meeting Summarizer" class="project__img">
                         <h3 class="project__title">AI Meeting Summarizer</h3>
-                        <p class="project__description">An AI-powered meeting assistant that transforms 
-                                                        audio recordings and transcripts into structured 
-                                                        summaries with action items, key decisions, and 
-                                                        follow-up questions. Built with a RAG pipeline 
-                                                        for context-aware Q&A over meeting content.</p>
+                        <p class="project__description">
+                            A voice-enabled meeting intelligence platform that turns 
+                            audio recordings into structured summaries with action items 
+                            and key decisions in under 1 minute. Built on OpenAI Whisper 
+                            for transcription, LangGraph for the agent workflow, and 
+                            ChromaDB for context-aware follow-up Q&A over meeting content.
+                        </p>
                         <a href="https://github.com/SwayamRBadhe/meeting-summarizer" target="_blank" class="project__link">View Project
+                            <i class="ri-arrow-right-line"></i></a>
+                    </div>
+                    <div class="project__content">
+                        <img src="assets/img/real-time-stock.png" alt="Real Time Stock Market Pipeline" class="project__img">
+                        <h3 class="project__title">Real-Time Stock Market Pipeline</h3>
+                        <p class="project__description">
+                            An end-to-end real-time data pipeline using Kafka and 
+                            Airflow on AWS to ingest and process financial market data, 
+                            producing analytics-ready datasets in Snowflake via dbt 
+                            transformations. Containerized with Docker and maintained 
+                            via Git with clean CI/CD workflows.
+                        </p>
+                        <a href="https://github.com/SwayamRBadhe/real-time-stock-mds" target="_blank" class="project__link">View Project
+                            <i class="ri-arrow-right-line"></i></a>
+                    </div>
+                    <div class="project__content">
+                        <img src="assets/img/real-estate.png" alt="Real Estate Price Prediction" class="project__img">
+                        <h3 class="project__title">Real Estate Price Prediction</h3>
+                        <p class="project__description">
+                            A machine learning application to predict real estate prices 
+                            using cleaned and engineered property data. Trained regression 
+                            models with Scikit-learn and deployed the best model through 
+                            a Flask API connected to a JavaScript frontend.
+                        </p>
+                        <a href="https://github.com/SwayamRBadhe/real-estate-price-prediction" target="_blank" class="project__link">View Project
+                            <i class="ri-arrow-right-line"></i></a>
+                    </div>
+                    <div class="project__content">
+                        <img src="assets/img/cricket-data-analytics.png" alt="Cricket Insights" class="project__img">
+                        <h3 class="project__title">Cricket Performance Analytics</h3>
+                        <p class="project__description">
+                            A Power BI dashboard identifying the top 11 T20 cricket 
+                            players by processing 3K-4K player records with Python and 
+                            Pandas, analyzing performance metrics using DAX, and 
+                            delivering interactive visualizations for data-driven 
+                            team selection decisions.
+                        </p>
+                        <a href="https://github.com/SwayamRBadhe/cricket-sport-data-analytics" target="_blank" class="project__link">View Project
                             <i class="ri-arrow-right-line"></i></a>
                     </div>
                     <div class="project__content">
                         <img src="assets/img/weather-app.png" alt="Weather App" class="project__img">
                         <h3 class="project__title">Weather App</h3>
-                        <p class="project__description">Developed a responsive weather app using JavaScript and APIs for real-time forecasts with 95% accuracy, optimized for mobile and desktop.</p>
+                        <p class="project__description">Developed a responsive weather app using JavaScript and APIs for real-time forecasts, optimized for mobile and desktop.</p>
                         <a href="https://gitlab.com/Swayam6/weather-app" target="_blank" class="project__link">View Project
                             <i class="ri-arrow-right-line"></i></a>
                     </div>
@@ -355,62 +423,36 @@
                     <div class="project__content">
                         <img src="assets/img/grid-project.png" alt="CSS Grid" class="project__img">
                         <h3 class="project__title">News Website</h3>
-                        <p class="project__description">Designed a static news website using HTML, CSS, and CSS Grid to enhance and showcase my UI/UX skills.</p>
+                        <p class="project__description">Designed a static news website using HTML, CSS, and CSS Grid to showcase UI/UX skills.</p>
                         <a href="https://gitlab.com/Swayam6/css-grid-project" target="_blank" class="project__link">View Project
-                            <i class="ri-arrow-right-line"></i></a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="project" class="section project">
-            <div class="container">
-                <div class="section__header">
-                    <h2 class="section__title">Data Projects</h2>
-                    <span class="section__subtitle">My work</span>
-                </div>
-                <div class="d-grid project__wrapper">
-                    <div class="project__content">
-                        <img src="assets/img/real-estate.png" alt="Real Estate Price Prediction" class="project__img">
-                        <h3 class="project__title">Real Estate Price Prediction</h3>
-                        <p class="project__description">Built a machine learning application to predict real estate prices using cleaned and engineered property data. Trained regression models with Scikit-learn and deployed the best model through a Flask API connected to a JavaScript frontend.</p>
-                        <a href="https://github.com/RyuKen108/real-estate-price-prediction" target="_blank" class="project__link">View Project
-                            <i class="ri-arrow-right-line"></i></a>
-                    </div>
-
-                    <div class="project__content">
-                        <img src="assets/img/cricket-data-analytics.png" alt="Cricket Insights" class="project__img">
-                        <h3 class="project__title">Cricket Insights</h3>
-                        <p class="project__description">Generated a Power BI dashboard to identify the top 11 T20 cricket players by processing data with Python and Pandas, analyzing metrics using DAX, and achieving a 90% win prediction accuracy.</p>
-                        <a href="https://github.com/RyuKen108/cricket-sport-data-analytics" target="_blank" class="project__link">View Project
                             <i class="ri-arrow-right-line"></i></a>
                     </div>
                     <div class="project__content">
                         <img src="assets/img/hr-data-analytics.png" alt="HR Analytics" class="project__img">
                         <h3 class="project__title">HR Data Analytics</h3>
-                        <p class="project__description">Designed a comprehensive Power BI dashboard to track key HR metrics, including working hours, attendance, performance, and leave data, improving decision-making for workforce management.</p>
+                        <p class="project__description">Designed a Power BI dashboard to track key HR metrics including working hours, attendance, performance, and leave data for workforce management decisions.</p>
                         <a href="https://github.com/RyuKen108/HR-data-analytics" target="_blank" class="project__link">View Project
                             <i class="ri-arrow-right-line"></i></a>
                     </div>
-                    <!--============== project 2 =============-->
                     <div class="project__content">
                         <img src="assets/img/sales-insights.png" alt="Sales Insights" class="project__img">
                         <h3 class="project__title">Sales Insights</h3>
-                        <p class="project__description">Developed an automated Power BI dashboard with SQL to analyze sales trends, YOY growth, and region-wise performance, enabling data-driven decisions and projected a 7% revenue increase.</p>
+                        <p class="project__description">Developed an automated Power BI dashboard with SQL to analyze sales trends, YOY growth, and region-wise performance, projecting a 7% revenue increase.</p>
                         <a href="https://github.com/RyuKen108/sales-insights-data-analytics" target="_blank" class="project__link">View Project
                             <i class="ri-arrow-right-line"></i></a>
                     </div>
-                    <!--============== project 3 =============-->
                     <div class="project__content">
                         <img src="assets/img/revenue-insights.png" alt="Revenue Insights" class="project__img">
                         <h3 class="project__title">Revenue Insights</h3>
-                        <p class="project__description">Created a Power BI dashboard using Excel and Power BI to analyze revenue trends for a hotel, enabling the revenue team to identify causes of loss and project a 20% market share recovery within a month.</p>
+                        <p class="project__description">Created a Power BI dashboard to analyze revenue trends for a hotel, helping the revenue team identify causes of loss and project a 20% market share recovery.</p>
                         <a href="https://github.com/RyuKen108/hospitality-domain-data-analytics" target="_blank" class="project__link">View Project
                             <i class="ri-arrow-right-line"></i></a>
                     </div>
                 </div>
             </div>
         </section>
+
+        
 
 
         <!--=================== Testimonials ====================-->
